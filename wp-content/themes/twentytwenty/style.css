@@ -1,11 +1,11 @@
 /*
 Theme Name: Twenty Twenty
 Text Domain: twentytwenty
-Version: 1.6
+Version: 1.5
 Requires at least: 4.7
 Requires PHP: 5.2.4
 Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
-Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks, accessibility-ready
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
 Author: the WordPress team
 Author URI: https://wordpress.org/
 Theme URI: https://wordpress.org/themes/twentytwenty/
@@ -125,7 +125,7 @@ html {
 }
 
 body {
-	background: #f5efe0;
+	background: #FFFAF3;
 	box-sizing: border-box;
 	color: #000;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
@@ -455,7 +455,7 @@ hr.styled-separator::after {
 }
 
 a {
-	color: #cd2653;
+	color: #f5efe0;
 	text-decoration: underline;
 }
 
@@ -538,7 +538,7 @@ dd + dt {
 /* Quotes ------------------------------------ */
 
 blockquote {
-	border-color: #cd2653;
+	border-color: #f5efe0;
 	border-style: solid;
 
 	/*rtl:ignore*/
@@ -835,7 +835,7 @@ input[type="reset"],
 input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background: #cd2653;
+	background: #f5efe0;
 	border: none;
 	border-radius: 0;
 	color: #fff;
@@ -1091,7 +1091,7 @@ button.toggle {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: #cd2653;
+	color: #f5efe0;
 }
 
 /* BACKGROUND COLOR */
@@ -1099,7 +1099,7 @@ button.toggle {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: #cd2653;
+	background-color: #f5efe0;
 }
 
 /* BORDER COLOR */
@@ -1107,14 +1107,14 @@ button.toggle {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: #cd2653;
+	border-color: #f5efe0;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: #cd2653;
+	fill: #f5efe0;
 }
 
 .fill-children-current-color,
@@ -1304,7 +1304,7 @@ ul.social-icons li {
 
 .social-icons a {
 	align-items: center;
-	background: #cd2653;
+	background: #f5efe0;
 	border-radius: 50%;
 	color: #fff;
 	display: flex;
@@ -2743,11 +2743,11 @@ h2.entry-title {
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #cd2653;
+	color: #f5efe0;
 }
 
 :root .has-accent-background-color {
-	background-color: #cd2653;
+	background-color: #f5efe0;
 	color: #fff;
 }
 
@@ -2805,7 +2805,7 @@ h2.entry-title {
 }
 
 .has-drop-cap:not(:focus)::first-letter {
-	color: #cd2653;
+	color: #f5efe0;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 5.1em;
 	font-weight: 800;
@@ -3024,7 +3024,7 @@ h2.entry-title {
 }
 
 .wp-block-button.is-style-outline {
-	color: #cd2653;
+	color: #f5efe0;
 }
 
 .is-style-outline .wp-block-button__link:not(.has-text-color) {
@@ -3210,7 +3210,7 @@ figure.wp-block-gallery.alignfull {
 .wp-block-pullquote::before {
 	background: #fff;
 	border-radius: 50%;
-	color: #cd2653;
+	color: #f5efe0;
 	content: "”";
 	display: block;
 	font-size: 6.2rem;
@@ -3834,7 +3834,7 @@ div.comment:first-of-type {
 }
 
 .comment-reply-link {
-	background-color: #cd2653;
+	background-color: #f5efe0;
 	color: #fff;
 	display: block;
 	padding: 0.7rem;
@@ -4449,7 +4449,7 @@ ul.footer-social li {
 }
 
 .footer-social a {
-	background-color: #cd2653;
+	background-color: #f5efe0;
 	height: 3.6rem;
 	width: 3.6rem;
 }

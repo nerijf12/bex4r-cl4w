@@ -105,7 +105,6 @@ function twentytwenty_theme_support() {
 			'caption',
 			'script',
 			'style',
-			'navigation-widgets',
 		)
 	);
 
@@ -177,9 +176,6 @@ require get_template_directory() . '/classes/class-twentytwenty-non-latin-langua
 
 // Custom CSS.
 require get_template_directory() . '/inc/custom-css.php';
-
-// Block Patterns.
-require get_template_directory() . '/inc/block-patterns.php';
 
 /**
  * Register and Enqueue Styles.
@@ -490,12 +486,12 @@ function twentytwenty_block_editor_settings() {
 			'color' => twentytwenty_get_color_for_area( 'content', 'accent' ),
 		),
 		array(
-			'name'  => _x( 'Primary', 'color', 'twentytwenty' ),
+			'name'  => __( 'Primary', 'twentytwenty' ),
 			'slug'  => 'primary',
 			'color' => twentytwenty_get_color_for_area( 'content', 'text' ),
 		),
 		array(
-			'name'  => _x( 'Secondary', 'color', 'twentytwenty' ),
+			'name'  => __( 'Secondary', 'twentytwenty' ),
 			'slug'  => 'secondary',
 			'color' => twentytwenty_get_color_for_area( 'content', 'secondary' ),
 		),

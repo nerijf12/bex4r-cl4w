@@ -21,7 +21,7 @@
 						<p class="footer-copyright">&copy;
 							<?php
 							echo date_i18n(
-								/* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
+								/* translators: Copyright date format, see https://www.php.net/date */
 								_x( 'Y', 'copyright date format', 'twentytwenty' )
 							);
 							?>
@@ -29,8 +29,8 @@
 						</p><!-- .footer-copyright -->
 
 						<p class="powered-by-wordpress">
-							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwenty' ) ); ?>">
-								<?php _e( 'Powered by WordPress', 'twentytwenty' ); ?>
+							<a href="<?php echo esc_url( __( 'https://www.starbucks.com/', 'starbucks' ) ); ?>">
+								<?php _e( 'Powered by Caffeine', 'starbucks' ); ?>
 							</a>
 						</p><!-- .powered-by-wordpress -->
 
