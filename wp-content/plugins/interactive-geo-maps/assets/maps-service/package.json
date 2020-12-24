@@ -1,0 +1,26 @@
+{
+	"name": "iMapsManager",
+	"version": "1.0.2",
+	"description": "Gulp tasks to compile iMaps Manager",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Carlos Moreira",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.9.6",
+		"@babel/preset-env": "^7.9.6",
+		"gulp": "^3.9.1",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-minify-css": "^1.2.4",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-strip-debug": "^3.0.0",
+		"gulp-uglify": "^3.0.2",
+		"gulp-uglifycss": "^1.1.0",
+		"gulp-util": "^3.0.8"
+	}
+}

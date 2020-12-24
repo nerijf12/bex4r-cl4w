@@ -1,0 +1,28 @@
+.cmb-type-group .cmb-remove-field-row, .cmb-type-group .cmb-repeat-group-field, .postbox-container .cmb-remove-field-row, .postbox-container .cmb-repeat-group-field{
+	padding-top: 0px !important;
+	padding-bottom: 10px !important;
+	
+}
+.cmb-type-group .cmb2-wrap>.cmb-field-list>.cmb-row, .postbox-container .cmb2-wrap>.cmb-field-list>.cmb-row {
+    padding: 5px 0 !important;
+    margin-bottom: 0px !important;
+}
+
+.ilist_info_carousel {
+	padding:10px;
+	width: 96%;
+    margin-left: 24px;
+}
+.ilist-notice {
+   background: #9b8fd8;
+   color: #fff;
+   margin-left: 0px;
+}
+
+.ilist-notice {
+   border-left-color: #f50029;
+}
+
+.counter-class{
+  display: none !important;
+}
